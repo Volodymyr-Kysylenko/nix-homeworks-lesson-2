@@ -1,0 +1,15 @@
+/* За допомогою псевдокласу */
+input:required {
+    color: red;
+}
+
+/* Без псевдокласу */
+/*
+input[required] {
+    color: red;
+}
+*/
+
+input[type=text] {
+    background-color: blue;
+}
